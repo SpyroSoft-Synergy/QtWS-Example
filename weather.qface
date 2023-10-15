@@ -1,0 +1,13 @@
+module com.qtws.weather 1.0
+
+enum WeatherType {
+    Unknown,
+    Sun,
+    Rain,
+    Clouds,
+}
+
+interface WeatherService {
+    readonly WeatherType weatherType;
+    readonly int temperature;
+}

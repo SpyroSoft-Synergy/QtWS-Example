@@ -1,0 +1,9 @@
+designer_mock:
+    module:
+        documents:
+            - '{{module|path}}/qmldir': 'qmldir.tpl'
+            - '{{module|path}}/{{module.module_name|upperfirst}}.qml': 'module.qml.tpl'
+    interface:
+        preserve:
+            - '{{module|path}}/{{interface}}.qml': 'interface.qml.tpl'
+

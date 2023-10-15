@@ -1,0 +1,4 @@
+module com.qtws.weather
+
+Weather 1.0 Weather.qml
+WeatherService 1.0 WeatherService.qml
